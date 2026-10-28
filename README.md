@@ -31,26 +31,6 @@ Base **simulada**, com **120 unidades consumidoras fictícias** de um mesmo mês
 
 A base não tem valores ausentes nem identificadores repetidos.
 
-## Como executar
-
-**Opção 1: Google Colab**
-
-1. Acesse [colab.research.google.com](https://colab.research.google.com/) → **Arquivo → Fazer upload de notebook** e envie `Checkpoint_3_Clustering_Energia.ipynb`.
-2. Clique em **Ambiente de execução → Executar tudo**.
-
-O Colab já tem todas as bibliotecas instaladas.
-
-**Opção 2: no computador (Python 3.10 ou mais recente)**
-
-```bash
-pip install -r requirements.txt
-jupyter notebook Checkpoint_3_Clustering_Energia.ipynb
-```
-
-Depois, no Jupyter, use **Kernel → Restart & Run All** para executar as células na ordem.
-
-Os resultados são reproduzíveis porque todos os modelos usam `random_state=42` e `n_init=10`.
-
 ## Metodologia
 
 1. **Exploração:** formato, tipos, valores ausentes, duplicados e estatísticas descritivas.
